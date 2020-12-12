@@ -1,1 +1,1 @@
-web: python3 instabot.py
+web: gunicorn instabot:app --log-file=-
