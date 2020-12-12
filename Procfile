@@ -1,1 +1,1 @@
-web: python instabot.py
+web: python3 instabot.py
