@@ -8,6 +8,7 @@ cffi==1.14.4
 chardet==4.0.0
 chrome-gnome-shell==0.0.0
 clarifai==2.6.2
+colorclass==2.2.0
 command-not-found==0.3
 configparser==5.0.1
 cryptography==3.3.1
@@ -15,6 +16,7 @@ cupshelpers==1.0
 decorator==4.4.2
 defer==1.0.6
 distro-info==0.18
+docopt==0.6.2
 EasyProcess==0.3
 emoji==0.6.0
 future==0.18.2
@@ -38,8 +40,10 @@ MeaningCloud-python==2.0.0
 netifaces==0.10.4
 oauth==1.0.1
 olefile==0.45.1
+packaging==20.8
 pexpect==4.2.1
 Pillow==5.1.0
+pip-upgrader==1.4.15
 plyer==2.0.0
 protobuf==3.14.0
 pycairo==1.16.2
@@ -49,6 +53,7 @@ pycups==1.9.73
 pygobject==3.26.1
 pymacaroons==0.13.0
 PyNaCl==1.1.2
+pyparsing==2.4.7
 pyRFC3339==1.0
 python-apt==1.6.3+ubuntu1
 python-debian==0.1.32
@@ -68,6 +73,7 @@ six==1.15.0
 soupsieve==2.1
 system-service==0.3
 systemd-python==234
+terminaltables==3.1.0
 TLPUI==0.1
 tornado==6.1
 tqdm==4.54.1
