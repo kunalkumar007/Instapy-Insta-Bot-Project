@@ -15,7 +15,7 @@ session = InstaPy(username=insta_username,
                   multi_logs=True)
 @app.route('/')
 def index():
-# let's go! :>
+# let's go! :
     with smart_run(session):
     # general settings
         session.set_relationship_bounds(enabled=True,
