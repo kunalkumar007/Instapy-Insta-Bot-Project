@@ -1,1 +1,1 @@
-web: python3 instabot:app --log-file=-
+web: python3 instabot.py
