@@ -1,9 +1,9 @@
 from time import sleep
 from selenium import webdriver
-from instapy_chromedriver import binary_path
+# from instapy_chromedriver import binary_path
 import os
 
-browser = webdriver.Chrome(executable_path=binary_path)
+browser = webdriver.Firefox()
 browser.implicitly_wait(5)
 
 browser.get('https://www.instagram.com/')

@@ -2,8 +2,10 @@ import os
 from instapy import InstaPy
 from instapy import smart_run
 
-insta_username = os.environ['INSTA_USER']
-insta_password = os.environ['INSTA_PASSWORD']
+# insta_username = os.environ['INSTA_USER']
+# insta_password = os.environ['INSTA_PASSWORD']
+insta_username='moriox.tech'
+insta_password='its_kunal_kumar'
 
 # get a session!
 session = InstaPy(
