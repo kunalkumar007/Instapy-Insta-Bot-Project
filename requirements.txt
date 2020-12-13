@@ -1,2 +1,6 @@
+
+django
+gunicorn
+django-heroku
 selenium
 instapy
