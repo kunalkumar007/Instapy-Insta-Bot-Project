@@ -1,2 +1,1 @@
 # instapy-insta-bot
-$$$
