@@ -10,7 +10,7 @@ insta_password = os.environ['INSTA_PASSWORD']
 session = InstaPy(username=insta_username,
                   password=insta_password,
                   headless_browser=True,
-                  multi_logs=True)
+                  )
 # let's go! :
 with smart_run(session):
     # general settings
