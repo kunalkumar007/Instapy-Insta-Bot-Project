@@ -7,7 +7,7 @@ import os
 # binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
 
 browser = webdriver.Firefox(
-    profile_directory=os.environ.get('GECKODRIVER_PATH'))
+    firefox_binary=os.environ.get('FIREFOX_BIN'))
 # browser = webdriver.Firefox(firefox_binary=binary)
 browser.implicitly_wait(5)
 
