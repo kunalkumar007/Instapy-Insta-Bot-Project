@@ -1,20 +1,20 @@
 import os
 from instapy import InstaPy
 from instapy import smart_run
-from env_utils import env
+# from env_utils import env
 
 
-insta_username = env('INSTA_USER')
-insta_password = env('INSTA_PASSWORD')
-# insta_username='moriox.tech'
-# insta_password='its_kunal_kumar'
+# insta_username = env('INSTA_USER')
+# insta_password = env('INSTA_PASSWORD')
+insta_username = os.environ.get('INSTA_USER')
+insta_password = os.environ.get('INSTA_PASSWORD')
 
 # get a session!
 session = InstaPy(
     username=insta_username,
     password=insta_password,
     headless_browser=True,
-    geckodriver_path=env('GECKODRIVER_PATH')
+    geckodriver_path=os.environ.get('GECKODRIVER_PATH')
 )
 # let's go! :
 with smart_run(session):
