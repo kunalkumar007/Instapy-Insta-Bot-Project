@@ -7,7 +7,8 @@ import os
 binary = FirefoxBinary(os.environ.get('FIREFOX_BIN'))
 
 # browser = webdriver.Firefox()
-browser = webdriver.Firefox(firefox_binary=binary)
+browser = webdriver.Firefox(executable_path=os.environ.get('FIREFOX_BIN'))
+# browser = webdriver.Firefox(firefox_binary=binary)
 browser.implicitly_wait(5)
 
 browser.get('https://www.instagram.com/')
@@ -26,4 +27,3 @@ login_button = browser.find_element_by_xpath("//button[@type='submit']")
 login_button.click()
 sleep(5)
 browser.close()
-
